@@ -42,7 +42,7 @@ public class MethodologiesFunctions {
             400
         );
         Stage stage = new Stage();
-        stage.initModality(Modality.APPLICATION_MODAL);
+        stage.initModality(Modality.WINDOW_MODAL);
         stage.setScene(scene);
         stage.showAndWait();
     }
